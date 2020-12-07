@@ -1,0 +1,732 @@
+@import url('../../font/Volvo/volvo.css');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.tag-h1 {
+    margin: 97px 0px 40px;
+    font-family: 'ProximaNovaBold';
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #161618;
+}
+.nav-modal {
+    margin-bottom: 40px;
+    nav {
+        display: flex;
+        justify-content: center;
+        li {
+            cursor: pointer;
+            list-style: none;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #161618;
+            opacity: 0.5;
+            margin-right: 60px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        li:last-child {
+            margin-right: 0px;
+        }
+        li:hover {
+            opacity: 1;
+        }
+    }
+    .active {
+        opacity: 1;
+    }
+}
+
+
+
+.car-modal {
+    margin: 0 auto;
+    max-width: 955px;
+    .car-modal-blocks {
+        display: flex;
+    }
+    .car-modal-v {
+        display: none;
+        &__block {
+            cursor: pointer;
+            margin-right: 20px;
+            margin-top: 10px;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #161618;
+            &__h1 {
+                margin-top: 10px;
+            }
+            .xc90 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/xc90.svg);
+            }
+            .xc90:hover {
+                background-image: url(../../svg/cars-min/xc90hover.svg);
+            }
+            .xc60 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/xc60.svg);
+            }
+            .xc60:hover {
+                background-image: url(../../svg/cars-min/xc60hover.svg);
+            }
+            .xc40 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/xc40.svg);
+            }
+            .xc40:hover {
+                background-image: url(../../svg/cars-min/xc40hover.svg);
+            }
+        }
+        &__block:last-child {
+            margin-right: 0px;
+        }
+        &__block:hover {
+            font-family: 'ProximaNovaBold';
+    
+            color: #007BCD;
+        }
+    }
+    .car-modal-s {
+        display: none;
+        justify-content: center;
+        &__block {
+            cursor: pointer;
+            margin-right: 20px;
+            margin-top: 10px;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #161618;
+            &__h1 {
+                margin-top: 10px;
+            }
+            .s90 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/s90.svg);
+            }
+            .s90:hover {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/s90hover.svg);
+            }
+            .s60 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/s60.svg);
+            }
+            .s60:hover {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/s60hover.svg);
+            }
+        }
+        &__block:last-child {
+            margin-right: 0px;
+        }
+        &__block:hover {
+            font-family: 'ProximaNovaBold';
+    
+            color: #007BCD;
+        }
+    }
+    .car-modal-c {
+        display: none;
+        justify-content: center;
+        &__block {
+            cursor: pointer;
+            margin-right: 20px;
+            margin-top: 10px;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #161618;
+            &__h1 {
+                margin-top: 10px;
+            }
+            .v90 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/v90cc.svg);
+            }
+            .v90:hover {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/v90cchover.svg);
+            }
+            .v60 {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/v60cc.svg);
+            }
+            .v60:hover {
+                width: 305px;
+                height: 172px;
+                background-image: url(../../svg/cars-min/v60cchover.svg);
+            }
+        }
+        &__block:last-child {
+            margin-right: 0px;
+        }
+        &__block:hover {
+            font-family: 'ProximaNovaBold';
+    
+            color: #007BCD;
+        }
+    }
+    .active {
+        display: flex;
+    }
+    .hide-carousel {
+        display: none;
+    }
+}
+
+.car-main {
+    margin-top: 87px;
+    img {
+        width: 100%;
+        padding-top: 93px;
+    }
+    &__block {
+        &__h1 {
+            font-weight: 300;
+            font-size: 48px;
+            line-height: 100%;
+            color: #161618;
+            margin: 20px 0px 40px;
+        }
+        &__table-credit {
+            display: none;
+            table {
+                tr {
+                    
+                    .th-1 {
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #161618;
+                        opacity: 0.8;
+                    }
+                    .td-2 {
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 100%;
+                        color: #161618;
+                        padding: 4px 97px 30px 0px;
+                        .price {
+                            font-family: 'PT Sans', serif;
+                            font-weight: 500;
+                            font-size: 28px;
+                            line-height: 100%;
+                            color: #161618;
+                        }
+                    }
+                }
+            }
+        }
+        &__table-leasing {
+            display: none;
+            table {
+                tr {
+                    
+                    .th-1 {
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #161618;
+                        opacity: 0.8;
+                    }
+                    .td-2 {
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 100%;
+                        color: #161618;
+                        padding: 4px 97px 30px 0px;
+                        .price {
+                            font-family: 'PT Sans', serif;
+                            font-weight: 500;
+                            font-size: 28px;
+                            line-height: 100%;
+                            color: #161618;
+                        }
+                    }
+                }
+            }
+        }
+        &__toggle {
+            display: flex;
+            align-items: center;
+            
+            .credit {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #161618;
+                opacity: 0.5;
+            }
+            .leasing {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #161618;
+                opacity: 0.5;
+            }
+            .switch-btn {
+                display: inline-block;
+                width: 30px; /* ширина */
+                height: 17px; /* высота */
+                border-radius: 19px; /* радиус скругления */
+                background: #fff; /* цвет фона */
+                z-index: 0;
+                margin: 0px 10px;
+                padding: 0;
+                border: 1px solid #007BCD;
+                cursor: pointer;
+                position: relative;
+                transition-duration: 300ms; /* анимация */
+            }
+            .switch-btn::after {
+                content: "";
+                height: 11px; /* высота кнопки */
+                width: 11px; /* ширина кнопки */
+                border-radius: 17px;
+                background: #007BCD; /* цвет кнопки */
+                top: 2px; /* положение кнопки по вертикали относительно основы */
+                left: 3px; /* положение кнопки по горизонтали относительно основы */
+                transition-duration: 300ms; /* анимация */
+                position: absolute;
+                z-index: 1;
+            }
+            .switch-on {
+                background: #ffffff;
+            }
+            .switch-on::after {
+                left: 15px;
+            }
+        }
+        &__offer {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            button {
+                text-align: center;
+                width: 270px;
+                height: 55px;
+                background:#007BCD;
+                border: none;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-right: 40px;
+                &:hover {
+                    background:#008EEC;
+                }
+                &:focus {
+                    background:#008EEC;
+                    outline: none;
+                }
+                &:active {
+                    background:#008EEC;
+                    outline: none;
+                }
+            }
+            .test {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                a {
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 100%;
+                    color: #161618;
+                    text-decoration-line: underline;
+                    &:hover {
+                        color: #007BCD;
+                    }
+                }
+            }
+        }
+    }
+    .active {
+        opacity: 1;
+    }
+    .active-2 {
+        display: block;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 39, 0.4);
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.modal__block {
+    background-color: #fff;
+    max-width: 416px;
+    padding: 60px 73px;
+    margin: 30px;
+    position: relative;
+    text-decoration: none;
+    .modal__close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 24px;
+        line-height: 24px;
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            outline: none;
+        }
+    }
+    &__h1 {
+        font-family: 'ProximaNovaBold';
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #161618;
+        margin-bottom: 10px;
+    }
+    &__h2 {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #161618;
+        margin-bottom: 36px;
+    }
+    &__p {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #4F4F4F;
+        margin-bottom: 30px;
+    }
+    &__input {
+        margin-bottom: 15px;
+        input {
+            width: 270px;
+            height: 55px;
+        }
+    }
+    &__button {
+        margin-bottom: 14px;
+        button {
+            width: 270px;
+            height: 55px;
+            background:#007BCD;
+            border: none;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 100%;
+            color: #FFFFFF;
+            margin-right: 40px;
+            &:hover {
+                background:#008EEC;
+            }
+            &:focus {
+                background:#008EEC;
+                outline: none;
+            }
+            &:active {
+                background:#008EEC;
+                outline: none;
+            }
+        }
+    }
+    &__check {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #4F4F4F;
+    }
+}
+
+.modal-successfully {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 39, 0.4);
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    .modal__block {
+        padding: 130px 30px;
+    }
+}
+
+.form_style p {
+    margin-bottom: 25px;
+    position: relative;
+}
+.form_style .rcheck {
+    margin-bottom: 10px;
+}
+.form_style p label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444444;
+    display: block;
+    cursor: pointer;
+}
+.form_style .rcheck label {
+    font-size: 13px;
+    font-weight: normal;
+    color: #444444;
+    display: inline;
+    vertical-align: top;
+}
+.form_style input[type="text"] {
+    display: block;
+    border: 2px solid #cfcfcf;
+    font-size: 14px;
+    color: #444444;
+    padding: 7px 7px 8px;
+    width: 270px;
+    height: 55px;
+}
+.form_style input[type="checkbox"] {
+    display: inline-block;
+    border: 1px solid #cfcfcf;
+    width: 14px;
+    margin: 4px 4px 0 0;
+    vertical-align: top;
+}
+.form_style input:focus {
+    outline: none;
+    border-color: #07a6e6;
+}
+.form_style .btnsubmit {
+    width: 270px;
+    height: 55px;
+    background:#007BCD;
+    border: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-right: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.form_style input.rf_error {
+    border-color: #d8512d;
+}
+.form_style .rfield_error {
+    display: block;
+    padding: 0px 10px;
+    background-color: #d8512d;
+    color: #fff;
+    font-size: 12px;
+    z-index: 1;
+    position: absolute;
+    top: 25px;
+    left: auto;
+    right: 32px;
+    visibility: hidden;
+}
+.form_style .rcheck .rfield_error {
+    top: 0px;
+    left: 22px;
+    right: auto;
+}
+.form_style .btnsubmit:hover {
+    background: #009ac2;
+}
+.form_style .btnsubmit:active {
+    box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+    outline: none;
+}
+.form_style .btnsubmit:focus {
+    outline: none;
+}
+.form_style .btnsubmit.disabled,
+.form_style .btnsubmit.disabled:hover {
+    background: #afdde6;
+    cursor: default;
+}
+
+.hide {
+    display: none;
+}
+
+.slide-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and ( max-width: 992px ) {
+    .car-modal {
+        .car-modal-blocks{
+            display: none;
+        }
+        .hide-carousel{
+            display: flex;
+        }
+    }
+}
+
+@media screen and ( max-width: 576px ) {
+    .car-main {
+        margin-top: 60px;
+        &__block {
+            &__h1 {
+                font-size: 26px;
+                margin: 20px 0px 15px;
+            }
+            &__table-credit {
+                table {
+                    tr {
+                        .th-1 {
+                            font-size: 12px;
+                        }
+                        .td-2 {
+                            font-size: 20px;
+                            padding: 2px 60px 20px 0px;
+                            .price {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            &__table-leasing {
+                display: none;
+                table {
+                    tr {
+                        .th-1 {
+                            font-size: 12px;
+                        }
+                        .td-2 {
+                            font-size: 20px;
+                            padding: 2px 60px 20px 0px;
+                            .price {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            &__offer {
+                flex-direction: column;
+                button {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+    .modal__block {
+        max-width: 310px;
+        padding: 0px 20px;
+        .modal__close {
+            right: 5px;
+            top: 5px;
+            font-size: 12px;
+            line-height: 12px;
+            &:focus {
+                outline: none;
+            }
+            &:active {
+                outline: none;
+            }
+        }
+        &__h1 {
+            font-size: 24px;
+            margin: 30px 0px 20px;
+        }
+        &__h2 {
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #161618;
+            margin-bottom: 36px;
+        }
+        &__p {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        &__input {
+            margin-bottom: 15px;
+            input {
+                width: 270px;
+                height: 55px;
+            }
+        }
+        &__button {
+            margin-bottom: 14px;
+            button {
+                width: 270px;
+                height: 55px;
+                background:#007BCD;
+                border: none;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 100%;
+                color: #FFFFFF;
+                margin-right: 40px;
+                &:hover {
+                    background:#008EEC;
+                }
+                &:focus {
+                    background:#008EEC;
+                    outline: none;
+                }
+                &:active {
+                    background:#008EEC;
+                    outline: none;
+                }
+            }
+        }
+        &__check {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: #4F4F4F;
+        }
+    }
+}
