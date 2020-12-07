@@ -1,11 +1,12 @@
 @charset "UTF-8";
-@import url("./_source/font/Volvo/volvo.css");
+@import url("../../font/Volvo/volvo.css");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 header {
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -79,26 +80,26 @@ header {
 .car-modal .car-modal-v__block .xc90 {
   width: 305px;
   height: 172px;
-  background-image: url(./_source/svg/cars-min/xc90.svg);
+  background-image: url(../../svg/cars-min/xc90.svg);
 }
 .car-modal .car-modal-v__block .xc90:hover {
-  background-image: url(./_source/svg/cars-min/xc90hover.svg);
+  background-image: url(../../svg/cars-min/xc90hover.svg);
 }
 .car-modal .car-modal-v__block .xc60 {
   width: 305px;
   height: 172px;
-  background-image: url(./_source/svg/cars-min/xc60.svg);
+  background-image: url(../../svg/cars-min/xc60.svg);
 }
 .car-modal .car-modal-v__block .xc60:hover {
-  background-image: url(./_source/svg/cars-min/xc60hover.svg);
+  background-image: url(../../svg/cars-min/xc60hover.svg);
 }
 .car-modal .car-modal-v__block .xc40 {
   width: 305px;
   height: 172px;
-  background-image: url(./_source/svg/cars-min/xc40.svg);
+  background-image: url(../../svg/cars-min/xc40.svg);
 }
 .car-modal .car-modal-v__block .xc40:hover {
-  background-image: url(./_source/svg/cars-min/xc40hover.svg);
+  background-image: url(../../svg/cars-min/xc40hover.svg);
 }
 .car-modal .car-modal-v__block:last-child {
   margin-right: 0px;
@@ -128,22 +129,22 @@ header {
 .car-modal .car-modal-s__block .s90 {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/s90.svg);
+  background-image: url(../../svg/cars-min/s90.svg);
 }
 .car-modal .car-modal-s__block .s90:hover {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/s90hover.svg);
+  background-image: url(../../svg/cars-min/s90hover.svg);
 }
 .car-modal .car-modal-s__block .s60 {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/s60.svg);
+  background-image: url(../../svg/cars-min/s60.svg);
 }
 .car-modal .car-modal-s__block .s60:hover {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/s60hover.svg);
+  background-image: url(../../svg/cars-min/s60hover.svg);
 }
 .car-modal .car-modal-s__block:last-child {
   margin-right: 0px;
@@ -173,22 +174,22 @@ header {
 .car-modal .car-modal-c__block .v90 {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/v90cc.svg);
+  background-image: url(../../svg/cars-min/v90cc.svg);
 }
 .car-modal .car-modal-c__block .v90:hover {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/v90cchover.svg);
+  background-image: url(../../svg/cars-min/v90cchover.svg);
 }
 .car-modal .car-modal-c__block .v60 {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/v60cc.svg);
+  background-image: url(../../svg/cars-min/v60cc.svg);
 }
 .car-modal .car-modal-c__block .v60:hover {
   width: 305px;
   height: 172px;
-  background-image: url(/_source/svg/cars-min/v60cchover.svg);
+  background-image: url(../../svg/cars-min/v60cchover.svg);
 }
 .car-modal .car-modal-c__block:last-child {
   margin-right: 0px;
